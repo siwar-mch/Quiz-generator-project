@@ -1,22 +1,14 @@
-body{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:center ;
-    min-height: 100vh;
-    color: white;
-    overflow: hidden;
+header{
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: 400;
+    font-size: x-large;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
 }
-body::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 20px 10px;
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-}
+
+
 .Container{
     padding: 20px;
     text-align: center;

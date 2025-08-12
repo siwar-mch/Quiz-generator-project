@@ -36,21 +36,7 @@ const LoginSignup = () =>{
                 <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}> Sign Up</div>
                 <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
             </div>
-            
-            
         </div>
-
-
-
-/*<div class="wrapper">
-        
-        
-<div class="register">
-                <p>Don't have an account ?</p>
-                <a href="sign-up.html">Register Now</a>
-            </div>
-        </form>
-    </div>*/
     )
 }
  
