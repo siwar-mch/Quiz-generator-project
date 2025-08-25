@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=GeistSans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GeistMono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'GeistSans', sans-serif;
+  --font-sans: 'GeistSans';
+  --font-mono: 'GeistMono';
+}
+.bg-gradient-login {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #fecfef 50%, #a8c8ec 75%, #667eea 100%);
+}
+
+.bg-gradient-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
+}
+
+.w-15 {
+  width: 3.75rem;
+}
+
+.h-15 {
+  height: 3.75rem;
+}
